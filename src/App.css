@@ -1,0 +1,46 @@
+body {
+  background-color: hsl(200, 7%, 6%);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: hsl(200, 7%, 6%);
+  color: hsl(36, 10%, 90%);
+  margin: 10px;
+}
+
+#heading {
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+
+  text-align: center;
+}
+#textAreaContainer {
+  margin: 20px;
+  height: 45vh;
+}
+#textArea {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  width: 100%;
+  background-color: hsl(200, 7%, 6%);
+  color: hsl(36, 10%, 90%);
+  height: 100%;
+  border: 1px #736b5e solid;
+}
+.btn {
+  background-color: hsl(200, 5%, 12%);
+  color: hsl(36, 10%, 90%);
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid rgb(51, 55, 57);
+}
+.btn:hover{
+  cursor: pointer;
+}
