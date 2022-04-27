@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Button from "./Button";
-export default function TextForm(props) {
+export default function TextForm({ heading }) {
+  const [text, setText] = useState("");
+
   const handleUpClick = () => {
     let newText = text.toUpperCase();
     setText(newText);
@@ -51,11 +53,10 @@ export default function TextForm(props) {
     setText(newText.join(" "));
   };
 
-  const [text, setText] = useState("");
   return (
     <>
       <div className="container">
-        <h1 id="heading">{props.heading}</h1>
+        <h1 id="heading">{heading}</h1>
         <div id="textAreaContainer">
           <textarea
             className="form-control"
